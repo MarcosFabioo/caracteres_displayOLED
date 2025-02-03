@@ -4,11 +4,11 @@ Este tutorial explica como adicionar novos caracteres (como 'Ç', 'Ã', etc.) à
 
 ## Passo 1: Desenhar o Caractere
 
-Essa ferramenta permite desenhar caracteres personalizados em uma matriz de LEDs (como 8x8) e gera automaticamente os valores hexadecimais correspondentes.
-
 Acesse a ferramenta **Online LED Matrix Font Generator**:
 
 🔗 [Online LED Matrix Font Generator](https://www.riyas.org/2013/12/online-led-matrix-font-generator-with.html)
+
+Essa ferramenta permite desenhar caracteres personalizados em uma matriz de LEDs (como 8x8) e gera automaticamente os valores hexadecimais correspondentes.
 
 ### Configure a ferramenta:
 - Defina o tamanho da matriz como **8x8** (ou o tamanho da fonte que você está usando).
@@ -40,11 +40,11 @@ static uint8_t font[] = {
 
 ## Passo 3: Obter o Valor Hexadecimal do Caractere
 
-Esta ferramenta converte qualquer caractere ASCII para seu valor hexadecimal correspondente. É útil para identificar o código exato de caracteres especiais que precisam ser tratados no código.
-
 Acesse a ferramenta **ASCII to Hex Converter**:
 
 🔗 [ASCII to Hex Converter](https://www.utilities-online.info/ascii-to-hex)
+
+Esta ferramenta converte qualquer caractere ASCII para seu valor hexadecimal correspondente. É útil para identificar o código exato de caracteres especiais que precisam ser tratados no código.
 
 1. Digite o caractere que deseja adicionar (por exemplo, 'Ç').
 2. Anote o valor hexadecimal correspondente:
