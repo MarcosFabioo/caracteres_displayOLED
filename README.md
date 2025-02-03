@@ -47,7 +47,7 @@ Acesse a ferramenta **ASCII to Hex Converter**:
    - Para 'Ç', o valor é **0xC7**.
    - Nesse sentido, a sequência de escape será: **\xC7**
 
-**Nota:** A sequência de escape é um conceito em programação que permite representar caracteres especiais ou não imprimíveis em strings ou literais de caractere. Em C (e muitas outras linguagens de programação), uma sequência de escape começa com uma barra invertida (\) seguida de um ou mais caracteres que definem o significado especial (nesse caso, o valor hexadecimal correspondente ao novo caractere).
+**Nota:** A sequência de escape é um conceito em programação que permite representar caracteres especiais ou não imprimíveis em strings ou literais de caractere. Em C (e muitas outras linguagens de programação), uma sequência de escape começa com uma barra invertida '\' seguida de um ou mais caracteres que definem o significado especial (nesse caso, o valor hexadecimal correspondente ao novo caractere).
 
 ## Passo 4: Tratar o Caractere no Arquivo `ssd1306_i2c.c`
 
