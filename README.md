@@ -118,9 +118,9 @@ void SinalAtencaoPedestre()
 
 | Passo | Ação |
 |-------|------|
-| **1** | Desenhar o caractere na ferramenta [Online LED Matrix Font Generator](https://www.example.com) e copiar os valores hexadecimais. |
+| **1** | Desenhar o caractere na ferramenta [Online LED Matrix Font Generator](https://www.riyas.org/2013/12/online-led-matrix-font-generator-with.html) e copiar os valores hexadecimais. |
 | **2** | Adicionar os valores hexadecimais à matriz `font[]` no arquivo `ssd1306_font.h`. |
-| **3** | Obter o valor hexadecimal do caractere usando a ferramenta [ASCII to Hex Converter](https://www.example.com). |
+| **3** | Obter o valor hexadecimal do caractere usando a ferramenta [ASCII to Hex Converter](https://www.utilities-online.info/ascii-to-hex). |
 | **4** | Mapear o caractere na função `ssd1306_get_font` no arquivo `ssd1306_i2c.c`. |
 | **5** | Usar a sequência de escape `\x` para incluir o caractere no texto. |
 | **6** | Compilar e testar. |
